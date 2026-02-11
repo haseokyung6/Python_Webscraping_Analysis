@@ -5,3 +5,7 @@ img/
 img.html
 *.jpg
 .env
+.venv/
+__pycache__/
+.vscode/
+data/*.json
