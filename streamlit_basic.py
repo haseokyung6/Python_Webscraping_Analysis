@@ -5,6 +5,9 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+plt.rcParams['font.family'] = 'Malgun Gothic'  # 윈도우 기본 한글폰트
+plt.rcParams['axes.unicode_minus'] = False     # 마이너스 깨짐 방지
+
 # 샘플 데이터 생성
 data = {'선거구': ['A', 'B', 'C', 'A', 'B', 'C', 'A', 'B', 'C'],
         '성별': ['남', '여', '남', '여', '남', '여', '남', '여', '남']}
